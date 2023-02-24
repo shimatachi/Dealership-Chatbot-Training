@@ -1,0 +1,58 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Hello", "Hay"],
+     "responses": ["Hello, how can I help you?", "Hi, Is there anything on your mind that you would like to talk about? ", "Hi there, I'm here to help with any questions you may have."]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help","okay","ok"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Describe yourself"],
+     "responses": ["I.m Jarwo a virtual assistant designed to help answer questions and provide information on car delearship", "I'm Jarwo, an Artificial Intelligent bot", "I am not a real person, but a program designed to simulate conversation and provide helpful information about car to users"]
+    },
+    {"tag": "car",
+    "patterns": ["Do you have any cars available?", "Are there any cars in stock?", "Can I see a list of cars you have available?","what car available?","what car?","cars in stock?","what in stock?","what are the cars in stock?","what car is in stock?","what is available?","list of cars available?","car lists","car on sale?","what car is on sale?","what car?","what vehicle?","vehicle available?"],
+    "responses": ["Yes, we have a wide variety of cars available. You can check on our website www.dealer.galarik.com", "Yes, we have several cars in stock. You can check on our website www.dealer.galarik.com", "Sure, you can see the list of available cars on our website www.dealer.galarik.com"]
+    },
+	{"tag": "can I credit",
+    "patterns": ["Can I pay with a credit card?", "Do you accept credit card payments?","Can I use credit card as payment?","can credit card?","can credit?","can pay with credit?","pay credit?","pay credit card?","can use credit card?"],
+    "responses": ["Yes, we accept credit card payments.", "Yes, you can pay with a credit card.","Yes, you can use credit card for payment"]
+    },
+	{"tag": "how to credit",
+    "patterns": ["How do I enter my credit card information?", "Can you walk me through the process of paying with a credit card?", "How do I pay with a credit card on your website?","How to use credit card?","How do I pay with credit card?","How to credit card?","Credit card how?","credit card how to use?","how to use credit cards to pay?"],
+    "responses": ["To enter your credit card information, you can follow the instructions on the payment page of our website. www.dealer.galarik.com/credit-instruction/", "To pay with a credit card, simply add the items you would like to purchase to your cart and proceed to checkout. On the payment page, you can enter your credit card information and complete the payment.", "To pay with a credit card on our website, add the items you would like to purchase to your cart and proceed to checkout. Then, select 'credit card' as the payment method and enter your credit card information to complete the payment."]
+    },
+	{"tag": "payment option",
+    "patterns": ["Can I pay with a debit card?", "Do you accept bank transfers?", "What forms of payment do you accept?","what about payment?","what payment?","what payment can I use?","can I pay with bank?","how do I pay?","how pay?","how payment?","payment?"],
+    "responses": ["Yes, we accept debit card payments.", "Yes, we accept bank transfers as a form of payment.", "We accept a variety of payment methods, including debit cards, bank transfers, and credit cards."]
+    },
+	{"tag": "payment process",
+    "patterns": ["How do I make a payment?", "Can I make a payment online?", "Do I need to come into the dealership to make a payment?","pay online?","can I pay online?"],
+    "responses": ["You can make a payment online through our secure payment portal.", "Yes, you can make a payment online or in person at the dealership.", "No, you don't need to come into the dealership to make a payment. You can make a payment online or over the phone."]
+    },
+	{"tag": "available banks",
+    "patterns": ["What banks do you work with?", "Can you tell me which banks you have partnerships with?", "Are there any specific banks that you recommend for financing a car purchase?","bank lists","what banks is available?","what about banks?"],
+    "responses": ["We work with a variety of banks, including BCA, BRI, and BANK Mandiri.", "We have partnerships with BCA, BRI, and BANK Mandiri banks.", "We recommend BCA, BRI, and BANK mandiri banks for financing a car purchase. These banks offer competitive rates and excellent customer service."]
+    },
+    {"tag": "Asking about car colors",
+    "patterns": ["Do you have this car available in red?", "I'm looking for a car with a specific color, do you have any options available?", "Do you offer custom paint jobs for cars?","red","green","blue","yellow","color","gray","black","white","orange","purple","color available?","what color?","color list?","what color is available?","what about color?","about color?","colour","color","paint","car paint","paint color","paint colour","what is car color","what is car paint"],
+    "responses": ["The availability of specific colors will depend on the make, model, and trim level you are considering. You can view the color options for each car on our website or visit us in person to discuss your options. Do you have any other questions about car colors?", "We have a variety of cars available in different colors. You can view the color options for each car on our website or visit us in person to discuss your options. Do you have a specific color in mind that you are looking for?", "We do not offer custom paint jobs. For lists of available colors you can check on our website."]
+    },
+    {"tag": "Asking about car parts",
+    "patterns": ["I'm looking for a specific car part, do you have it in stock", "Do you offer OEM parts for car repairs?", "Do you offer any discounts on car parts purchases?","what about car parts?","what about parts?","car parts","any car parts?","any aftermarket parts?","aftermarket","parts","car modification?","car mods?","turbo","transmission","engine","engine parts","spoiler","roof","hood","trunk"],
+    "responses": ["We have a wide selection of car parts in stock, but availability will depend on the specific part you are looking for. You can check our website or visit us in person to discuss your options. Do you have a specific part in mind?", "Yes, we offer OEM parts for car repairs. These are original equipment manufacturer parts that are specifically designed for your car's make and model. You can check our website or visit us in person to discuss your options. Do you have any other questions about car parts?", "We do offer various discounts and promotions on car parts purchases from time to time. You can view our current specials on our website or visit us in person to discuss any current discounts that may be available. Do you have any other questions about discounts or promotions on car parts?"]
+    },
+    {"tag": "Asking about car delivery",
+    "patterns": ["Can I have the car delivered to my home?", "Do you offer nationwide delivery for car purchases?", "What is the process for delivering a car to me?","deliver?","can you deliver the car?","Can you send the car?","send","delivered","car delivered?","delivery","can I order the car?","order delivery?"],
+    "responses": ["We do offer delivery options for car purchases, depending on your location. You can discuss delivery options with our sales team when you make your purchase. Do you have any other questions about car delivery?", "Yes, we do offer nationwide delivery for car purchases. You can discuss the details and fees with our sales team when you make your purchase. Do you have any other questions about car delivery?", "The process for delivering a car to you will depend on your location and the specifics of your purchase. You can discuss the details and fees with our sales team when you make your purchase. Do you have any other questions about car delivery?"]}
+	,
+    {"tag": "Asking about car warranties",
+    "patterns": ["Does this car come with a warranty?", "What does the warranty cover for this car?", "I'm interested in purchasing an extended warranty, do you offer any options?","what about warranty?","what about warranties?","warranty","warranties","are there any warranty?"],
+    "responses": ["Most new cars come with a manufacturer's warranty that covers certain aspects of the car for a specific period of time. You can view the details of the warranty for each car on our website or visit us in person to discuss your options.", "The warranty for each car will vary depending on the make, model, and trim level you are considering. You can view the details of the warranty for each car on our website or visit us in person to discuss your options. The warranty may cover things like the engine, transmission, and other mechanical components of the car.", "Yes, we offer extended warranty options for both new and used cars. Our financing team would be happy to discuss the different options with you and help you find the best fit for your budget and needs."]}
+]
+}
